@@ -58,7 +58,7 @@ class Move():
     def get_chess_notation(self):
         return self.get_rank_file(self.startRow, self.startCol) + self.get_rank_file(self.endRow, self.endCol)
 
-
+#Sad bhayo
 
     def get_rank_file(self, r, c):
         return self.col_to_files[c] + self.rows_to_ranks[r]
